@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int num,i,count=0;
+printf("\nEnter the number : ");
+scanf("%d",&num);
+for(i=1;i<=num;i++)
+{
+if(num%i==0)
+{
+++count;
+}
+}
+printf("\n\nTotal number of factors for %d are: %d\n",num,count);
+return (0);
+}
